@@ -36,7 +36,7 @@ body {
 }
 
 .logo-accent {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
 }
 
 .logo-accent:hover,
@@ -141,6 +141,10 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.worker-role {
+  font-size: 16px;
 }
 
 /* Footer */
