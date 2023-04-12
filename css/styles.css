@@ -80,10 +80,11 @@ body {
 }
 
 .main-head {
-  color: var(--tertiary-text-color);
+  color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 /* Buttons */
@@ -94,7 +95,7 @@ body {
 
 .hero-button {
   background-color: var(--accent-color);
-  color: var(--tertiary-text-color);
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -108,9 +109,11 @@ body {
 }
 
 .feature-head {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .duties-head,
@@ -119,8 +122,13 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em
   text-align: center;
   text-transform: capitalize;
+}
+
+.team {
+  background-color: #2e2f42;
 }
 
 .worker-name {
