@@ -45,7 +45,7 @@ body {
 }
 
 .menu {
-  color: #2e2f42;
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -136,14 +136,11 @@ body {
 }
 
 .worker-name {
+  color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-}
-
-.worker-role {
-  font-size: 16px;
-  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
