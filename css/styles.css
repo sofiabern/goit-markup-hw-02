@@ -44,7 +44,7 @@ body {
   color: var(--secondary-accent-color);
 }
 
-.site-nav .link {
+.site-nav .menu {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
