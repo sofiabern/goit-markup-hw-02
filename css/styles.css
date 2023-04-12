@@ -18,28 +18,27 @@ body {
   letter-spacing: 0.02em;
 }
 
-.no-bullets {
+.list {
   list-style-type: none;
 }
-.no-line {
+.link {
   text-decoration: none;
 }
 
 /* Header */
 /* Logo */
 .logo {
-  color: var(--site-nav-text-color);
+  color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-decoration: none;
 }
 
 .logo-accent {
-  color: var(--accent-color);
+  color: #2e2f42;
 }
 
 .logo-accent:hover,
@@ -134,15 +133,8 @@ body {
 }
 
 /* Footer */
-.logo-footer {
-  color: var(--tertiary-text-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  text-decoration: none;
+.footer .logo-accent {
+  color: #f4f4fd;
 }
 
 .footer-text {
