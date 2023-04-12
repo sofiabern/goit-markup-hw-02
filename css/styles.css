@@ -4,10 +4,8 @@
   --tertiary-bg-color: #f4f4fd;
   --primary-text-color: #434455;
   --secondary-text-color: #2e2f42;
-  --tertiary-text-color: #ffffff;
   --accent-color: #4d5ae5;
   --secondary-accent-color: #404bbf;
-  --site-nav-text-color: #2e2f42;
 }
 body {
   background-color: var(--primary-bg-color);
@@ -166,4 +164,9 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.works-text {
+  color: #434455;
 }
