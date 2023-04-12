@@ -47,7 +47,7 @@ body {
 }
 
 .site-nav .link {
-  color: var(--site-nav-text-color);
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -59,12 +59,15 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
+}
+
+.font {
+  font-style: normal;
 }
 
 .contacts .link {
   color: var(--primary-text-color);
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -87,6 +90,7 @@ body {
 }
 /* Buttons */
 .button {
+  font-family: Roboto, sans-serif;
   cursor: pointer;
 }
 
