@@ -51,7 +51,7 @@ body {
   line-height: 1.5;
 }
 
-.site-nav .link.current {
+.site-nav .current .link {
   color: var(--accent-color);
 }
 
@@ -165,7 +165,7 @@ body {
 .filter-button:focus,
 .filter-button:active {
   background-color: var(--secondary-accent-color);
-  color: var(--tertiary-text-color);
+  color: #FFFFFF;
 }
 .works-head {
   color: var(--secondary-text-color);
