@@ -44,7 +44,7 @@ body {
   color: var(--secondary-accent-color);
 }
 
-.site-nav .menu {
+.menu {
   color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
@@ -72,7 +72,7 @@ body {
 
 .contacts .link:hover,
 .contacts .link:focus {
-  color: var(--accent-color);
+  color: #404bbf;
 }
 
 .background {
@@ -122,13 +122,17 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
 
 .team {
-  background-color: #2e2f42;
+  background-color: #f4f4fd;
+}
+
+.team .list-bg {
+  background-color: #ffffff;
 }
 
 .worker-name {
@@ -165,7 +169,7 @@ body {
 .filter-button:focus,
 .filter-button:active {
   background-color: var(--secondary-accent-color);
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .works-head {
   color: var(--secondary-text-color);
