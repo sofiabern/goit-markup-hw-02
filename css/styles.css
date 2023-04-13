@@ -46,9 +46,9 @@ body {
   line-height: 1.5;
 }
 
-.site-nav .current .link {
-  color: var(--accent-color);
-}
+/* .site-nav .current .link { */
+/* color: var(--accent-color); */
+/* } */
 
 .site-nav .link:hover,
 .site-nav .link:focus {
