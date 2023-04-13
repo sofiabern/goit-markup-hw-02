@@ -39,11 +39,6 @@ body {
   color: var(--secondary-text-color);
 }
 
-.logo:hover,
-.logo:focus {
-  color: var(--secondary-accent-color);
-}
-
 .site-nav .menu {
   color: var(--secondary-text-color);
   font-weight: 500;
